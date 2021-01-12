@@ -186,3 +186,41 @@ ul.timeline > li:before {
 .footer hr {
     border-top: 1px solid black;
 }
+
+
+
+.about-main-image img {
+    height: 300px;
+    width: auto;
+}
+@media (max-width: 1023px){
+    .about-main-image {
+        display: none;
+    }
+    .about-second-image {
+        display: none;
+    }
+}
+
+.clear {
+    box-shadow: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.about-second-image img {
+    height: 600px;
+    width: auto;
+}
+.about-second-image {
+    overflow: hidden;
+}
+#eligible {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('/images/about-bg.jpg');
+    background-size: cover;
+}
