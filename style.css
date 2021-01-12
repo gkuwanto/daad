@@ -200,6 +200,9 @@ ul.timeline > li:before {
     .about-second-image {
         display: none;
     }
+    .benefit-second-image {
+        display: none;
+    }
 }
 
 .clear {
@@ -223,4 +226,24 @@ ul.timeline > li:before {
         rgba(0, 0, 0, 0.5)
       ), url('/images/about-bg.jpg');
     background-size: cover;
+}
+@media (max-width: 768px) {
+    .table {
+        font-size: 12px;
+    }
+}
+#additional {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('/images/benefit-bg.jpg');
+    background-size: cover;
+}
+
+.benefit-second-image img {
+    height: 700px;
+    width: auto;
+}
+.benefit-second-image {
+    overflow: hidden;
 }
