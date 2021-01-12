@@ -1,0 +1,188 @@
+.jumbotron {
+    overflow-x: hidden;
+}
+@media (max-width: 1000px) {
+    .hide-md {
+        font-size: 1rem;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .hide-md {
+        font-size: 0.75rem;
+        align-items: center;
+    }
+}
+.navbar .row {
+    align-items: center;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler {
+    border: none;
+    color: #000000 !important;
+}
+.primary-color {
+    color: #005AAB;
+}
+
+.primary-color strong {
+    font-weight: 700;
+}
+
+.black-color {
+    color: #000000;
+}
+.white-color {
+    color: #ffffff;
+}
+.black-color:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.jumbotron-fluid {
+    display: flex;
+    align-items: center;
+}
+.bmz-logo {
+    width: 300px;
+    height: auto;
+}
+.itb-logo {
+    width: 70px;
+    height: auto;
+}
+.center-logo {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bar {
+    background: linear-gradient(to bottom, #005AAB 500px, #ffffff 0%);
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: 0 0 10px 3px rgba(100, 100, 100, 0.7);
+}
+
+.padding{ 
+    height: 100px
+}
+
+.center-nav {
+    justify-content: center;
+}
+.mx-10 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #000000;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: black;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+#timeline {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('/images/homepage-timeline.jpg');
+    background-size: cover;
+}
+.align-center {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-image {
+    height: 400px;
+    overflow: hidden;
+}
+.homepage-main-image {
+    position: absolute;
+    bottom: 0;
+    height: 600px;
+    width: auto;
+}
+
+@media (max-width: 768px ) {
+    .none-sm {
+        display: none;
+    }
+    .main-image {
+        height: 150px;
+        width: 90vw;
+    }
+    .homepage-main-image {
+        width: 90vw;
+    }
+}
+
+.hero-main {
+    font-size: 3rem;
+}
+.hero-sub {
+    font-size: 2rem;
+}
+.smaller {
+    font-size: 12px;
+}
+.footer a{
+    font-size: 14px;
+    color: #000000;
+}
+.list-none {
+    text-decoration: none;
+    list-style: none;
+}
+.list-none li {
+    margin-top: 2rem;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer hr {
+    border-top: 1px solid black;
+}
