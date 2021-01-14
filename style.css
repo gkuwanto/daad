@@ -252,3 +252,7 @@ ul.timeline > li:before {
     height: 200px;
     color: black;
 }
+
+.supervisor img{
+    padding: 1rem;
+}
